@@ -10,7 +10,7 @@ A backbone for your coding challenge that includes a simple Android app in Kotli
 ## Getting started
 
 1. Install [Android Studio](https://developer.android.com/studio#downloads).
-2. Run the predefined "app" configuration to run the app.
+2. Run the predefined "app" configuration to start the app.
 
 ---
 
