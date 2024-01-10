@@ -1,11 +1,11 @@
 # Mobile Boilerplate Android Kotlin
 
-A backbone for your coding challenge that includes a simple Android app in Kotlin with three tabs.
+A backbone for your coding challenge that includes a simple Android app in Kotlin.
 
 ## Tech Stack
 
-- Kotlin 1.5
-- Gradle 4.2
+- Kotlin
+- Gradle
 
 ## Getting started
 
