@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "io.alvalabs.app"
+    namespace = "io.alvalabs.androidapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "io.alvalabs.app"
+        applicationId = "io.alvalabs.androidapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package io.alvalabs.app
+package io.alvalabs.androidapp
 
 import org.junit.Test
 
