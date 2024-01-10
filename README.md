@@ -14,6 +14,4 @@ A backbone for your coding challenge that includes a simple Android app in Kotli
 
 ---
 
-Made by [DevSkills](https://devskills.co).
-
-Did you find this repo useful? **Give us a shout on [Twitter](https://twitter.com/DevSkillsHQ) / [LinkedIn](https://www.linkedin.com/company/devskills)**.
+Made by [Alva Labs](https://alvalabs.io).
