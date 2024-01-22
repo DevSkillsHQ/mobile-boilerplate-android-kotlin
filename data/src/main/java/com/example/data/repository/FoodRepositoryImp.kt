@@ -1,6 +1,5 @@
 package com.example.data.repository
 
-import android.util.Log
 import com.example.data.network.api.FoodApiService
 import com.example.data.network.apiCall
 import com.example.domain.Response

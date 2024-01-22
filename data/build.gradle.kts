@@ -39,12 +39,14 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation(project(":domain"))
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.google.code.gson:gson:2.10")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     implementation("io.insert-koin:koin-android:3.5.0")
+    testImplementation("org.mockito:mockito-core:5.7.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+    testImplementation("app.cash.turbine:turbine:1.0.0")
+    testImplementation("org.amshove.kluent:kluent-android:1.73")
 
 }

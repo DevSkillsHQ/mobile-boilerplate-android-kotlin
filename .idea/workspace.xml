@@ -42,37 +42,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84428eed-2ca4-4e41-9459-eda5f489d874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/di/ViewModelModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/fragments/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/fragments/detail/DetailViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/fragments/list/ListViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/utils/BaseAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list_meal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/example/data/repository/FoodRepositoryImpTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/FirstFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/fragments/list/ListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/SecondFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/fragments/detail/DetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/di/NetworkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/di/NetworkModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/di/RepositoryModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/di/RepositoryModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/model/MealDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/model/MealDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/network/api/FoodApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/network/api/FoodApiService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/network/apiCall.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/network/apiCall.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/repository/FoodRepositoryImp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/repository/FoodRepositoryImp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/example/data/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/Response.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/Response.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +67,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -134,7 +109,7 @@
       <recent name="com.example.domain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.FoodRepositoryImpTest.test if we can get one meal by its id">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app.app.main" />
       <option name="DEPLOY" value="true" />
@@ -202,6 +177,85 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FoodRepositoryImpTest.test if we can get a list of the meals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":data:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.data.repository.FoodRepositoryImpTest.test if we can get a list of the meals&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FoodRepositoryImpTest.test if we can get all of the meals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":data:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.data.repository.FoodRepositoryImpTest.test if we can get all of the meals&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FoodRepositoryImpTest.test if we can get one meal by its id" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":data:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.data.repository.FoodRepositoryImpTest.test if we can get one meal by its id&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FoodRepositoryImpTest.test if we can get one meal by its id" />
+        <item itemvalue="Gradle.FoodRepositoryImpTest.test if we can get a list of the meals" />
+        <item itemvalue="Gradle.FoodRepositoryImpTest.test if we can get all of the meals" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -220,12 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705931415426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- UI layer&#10;- replace Hilt with Koin&#10;- Connect UI to Data">
+      <option name="closed" value="true" />
+      <created>1705938953972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705938953972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- data layer&#10;- domain layer&#10;- hilt" />
-    <option name="LAST_COMMIT_MESSAGE" value="- data layer&#10;- domain layer&#10;- hilt" />
+    <MESSAGE value="- UI layer&#10;- replace Hilt with Koin&#10;- Connect UI to Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="- UI layer&#10;- replace Hilt with Koin&#10;- Connect UI to Data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +307,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/fragments/detail/DetailFragment.kt</url>
           <line>38</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/data/src/main/java/com/example/data/network/apiCall.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

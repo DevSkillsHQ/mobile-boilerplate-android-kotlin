@@ -9,7 +9,6 @@ suspend fun <T>apiCall(request: suspend () -> T): Flow<Response<T>> = flow {
     emit(Response.Loading())
     try {
         val response = request.invoke()
-        Log.d("NetWorkResponse", response.toString())
         emit(Response.Data(response))
     }
     catch(throwable: Throwable){
