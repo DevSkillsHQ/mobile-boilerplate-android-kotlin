@@ -11,7 +11,11 @@ data class MealAllDto(
 
 data class MealListDto(
     @SerializedName("meal_roulette_app_meals_aggregate")
-    val meals: List<MealDto>
+    val meals: MealRouletteAppMealsAggregate
+)
+
+data class MealRouletteAppMealsAggregate(
+    val nodes: List<MealDto>
 )
 
 data class MealPickDto(

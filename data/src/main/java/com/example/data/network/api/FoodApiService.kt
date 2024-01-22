@@ -10,7 +10,7 @@ interface FoodApiService {
     @GET("meal-roulette-app/meals")
     suspend fun getAllMeals(): MealAllDto
 
-    @GET("meal-roulette-app/limit/{limit}/offset/{offset}")
+    @GET("meal-roulette-app/meals/limit/{limit}/offset/{offset}")
     suspend fun getListMeals(@Path("limit") limit: Int, @Path("offset") offset: Int): MealListDto
 
     @GET("meal-roulette-app/meals/{id}")
