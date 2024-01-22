@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
+        <config>
+          <theme>@style/Theme.App</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84428eed-2ca4-4e41-9459-eda5f489d874" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/alvalabs/app/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/androidTest/java/com/example/data/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/di/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/di/RepositoryModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/model/MealDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/network/api/FoodApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/network/apiCall.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/repository/FoodRepositoryImp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/example/data/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/Response.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/ToDomain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/model/Meal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/repository/FoodRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +53,19 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/antonfenske/.android/avd/Pixel_3a_API_34_extension_level_7_arm64-v8a.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/ali/.android/avd/Automotive_1080p_landscape_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,9 +85,16 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ali/AndroidStudioProjects/flic-android-kotlin",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.domain" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app.app.main" />
