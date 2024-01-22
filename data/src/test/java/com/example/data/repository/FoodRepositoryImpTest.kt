@@ -13,7 +13,6 @@ import kotlinx.coroutines.runBlocking
 import org.amshove.kluent.internal.assertEquals
 import org.junit.Test
 import org.mockito.Mockito.mock
-import org.mockito.Mockito.`when`
 import org.mockito.kotlin.whenever
 
 class FoodRepositoryImpTest {

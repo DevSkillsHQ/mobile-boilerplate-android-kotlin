@@ -42,12 +42,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84428eed-2ca4-4e41-9459-eda5f489d874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/example/data/repository/FoodRepositoryImpTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/data/repository/FoodRepositoryImp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/repository/FoodRepositoryImp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/example/data/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/Response.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/Response.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/example/data/repository/FoodRepositoryImpTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/example/data/repository/FoodRepositoryImpTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,13 +278,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705938953972</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- add sample Test for one component">
+      <option name="closed" value="true" />
+      <created>1705940297402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705940297402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- data layer&#10;- domain layer&#10;- hilt" />
     <MESSAGE value="- UI layer&#10;- replace Hilt with Koin&#10;- Connect UI to Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="- UI layer&#10;- replace Hilt with Koin&#10;- Connect UI to Data" />
+    <MESSAGE value="- add sample Test for one component" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add sample Test for one component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,7 +315,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/data/src/main/java/com/example/data/network/apiCall.kt</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
