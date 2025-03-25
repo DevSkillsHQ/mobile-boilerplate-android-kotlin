@@ -35,7 +35,7 @@ jobs:
   auto-merge-dependabot:
     needs:
       - test-for-build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
       - name: Dependabot metadata
