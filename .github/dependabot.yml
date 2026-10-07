@@ -1,9 +1,19 @@
 version: 2
 updates:
   - package-ecosystem: "gradle"
-    directory: "/app"
+    directory: "/"
     schedule:
-      interval: "daily"
-    labels:
-      - "java"
-      - "dependencies"
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      android-build:
+        patterns:
+          - "com.android.*"
+          - "org.jetbrains.kotlin*"
+          - "gradle-wrapper"
+        update-types:
+          - "major"
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
